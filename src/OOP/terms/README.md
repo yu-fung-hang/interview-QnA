@@ -1,0 +1,4 @@
+# OOP terms
+
+#### formal parameter  –Œ ΩÖ¢îµ
+#### actual parameter  åçÎHÖ¢îµ
