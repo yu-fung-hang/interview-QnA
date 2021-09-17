@@ -79,4 +79,11 @@ Hi, I am ClassA!
 My father's name: ClassA
 ```
 
-> ClassC could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no modifier. 
+> ClassC could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no modifier.
+
+## Q4: Inheritance rules (override superclass's method)
+
+* If a method is set to be **public** in the superclass, its subclass should also set it to be **public**;
+* If a method is set to be **protected** in the superclass, its subclass should set it to be either **public** or **protected**;
+* If a method is not assigned any access modifier in the superclass, its subclass should set it to be **public** / **protected** / **no modifier**;
+* If a method is set to be **private** in the superclass, this method could not be inherited by its subclasses.
