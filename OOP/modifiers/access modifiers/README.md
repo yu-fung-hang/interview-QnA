@@ -1,6 +1,6 @@
 # Java Access Modifiers
 
-In this blog, I am going to compare the differences in four Java access modifiers (`public`, `protected`, no modifier, and `private`).
+In this blog, I am going to compare the differences in four Java access modifiers (**public**, **protected**, **no access modifier**, and **private**).
 
 ## Q1: Where can they be used?
 
@@ -8,7 +8,7 @@ In this blog, I am going to compare the differences in four Java access modifier
 |:---|:---:|:---:|:---:|:---:|
 |public|✔|✔|✔|✔|
 |protected|❌|✔|✔|❌|
-|no modifier|✔|✔|✔|✔|
+|no access modifier|✔|✔|✔|✔|
 |private|❌|✔|✔|❌|
 
 > **Attention**: Inner class is not considered here.
@@ -19,14 +19,14 @@ In this blog, I am going to compare the differences in four Java access modifier
 |:---|:---:|:---:|:---:|:---:|
 |public|✔|✔|✔|✔|
 |protected|✔|✔|✔ (inheritance) / ❌ (package)|❌|
-|no modifier|✔|✔|❌|❌|
+|no access modifier|✔|✔|❌|❌|
 |private|✔|❌|❌|❌|
 
 ### Conclusion
-1. `public` class / method / variable / interface can be accessed in any case.
-2. `private` method / variable could only be accessed within the same class.
-3. `no modifier` class / method / variable / interface could only be accessed within the same package.
-4. `protected` method / variable:
+1. **public** class / method / variable / interface can be accessed in any case.
+2. **private** method / variable could only be accessed within the same class.
+3. **no access modifier** class / method / variable / interface could only be accessed within the same package.
+4. **protected** method / variable:
     1. can be accessed within the same package;
     2. can only be accessed through **inheritance** when two classes are not in the same package.
 
@@ -79,11 +79,11 @@ Hi, I am ClassA!
 My father's name: ClassA
 ```
 
-> ClassC could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no modifier.
+> ClassC could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no access modifier.
 
 ## Q4: Inheritance rules (override superclass's method)
 
 * If a method is set to be **public** in the superclass, its subclass should also set it to be **public**;
 * If a method is set to be **protected** in the superclass, its subclass should set it to be either **public** or **protected**;
-* If a method is not assigned any access modifier in the superclass, its subclass should set it to be **public** / **protected** / **no modifier**;
+* If a method is not assigned with any access modifier in the superclass, its subclass should set it to be **public** / **protected** / **no access modifier**;
 * If a method is set to be **private** in the superclass, this method could not be inherited by its subclasses.
