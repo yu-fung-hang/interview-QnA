@@ -6,3 +6,5 @@
 ### member variable 成員變量
 ### local variable 局部變量
 ### constructor 構造函數
+### subclass 子類
+### superclass 父類
