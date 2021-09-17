@@ -1,15 +1,15 @@
 # Java Access Modifiers
 
-In this blog, I am going to compare the difference in four Java access modifiers (`public`, `protected`, no modifier, and `private`).
+In this blog, I am going to compare the differences in four Java access modifiers (`public`, `protected`, no modifier, and `private`).
 
 ## Q1: Where can they be used?
 
 |    |class|method|variable|interface|
 |:---|:---:|:---:|:---:|:---:|
-|public|?|?|?|?|
-|protected|?|?|?|?|
-|no modifier|?|?|?|?|
-|private|?|?|?|?|
+|public|✔|✔|✔|✔|
+|protected|❌|✔|✔|❌|
+|no modifier|✔|✔|✔|✔|
+|private|❌|✔|✔|❌|
 
 > **Attention**: Inner class is not considered here.
 
@@ -17,10 +17,10 @@ In this blog, I am going to compare the difference in four Java access modifiers
 
 |    |current class|current package|its subclass in a different package|a different package|
 |:---|:---:|:---:|:---:|:---:|
-|public|?|?|?|?|
-|protected|?|?|? (inheritance) / ? (package)|?|
-|no modifier|?|?|?|?|
-|private|?|?|?|?|
+|public|✔|✔|✔|✔|
+|protected|✔|✔|✔ (inheritance) / ❌ (package)|❌|
+|no modifier|✔|✔|❌|❌|
+|private|✔|❌|❌|❌|
 
 ### Conclusion
 1. `public` class / method / variable / interface can be accessed in any case.
