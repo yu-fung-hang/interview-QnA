@@ -8,3 +8,4 @@
 ### constructor 構造函數
 ### subclass 子類
 ### superclass 父類
+### compile (v) & compilation (n) 編譯
