@@ -1,4 +1,4 @@
-# Java Access Modifiers
+# Access Modifiers
 
 In this blog, I am going to compare the differences in four Java access modifiers (**public**, **protected**, **no access modifier**, and **private**).
 
@@ -28,10 +28,10 @@ In this blog, I am going to compare the differences in four Java access modifier
 3. **no access modifier** class / method / variable / interface could only be accessed within the same package.
 4. **protected** method / variable:
     1. can be accessed within the same package;
-    2. can only be accessed through **inheritance** when two classes are not in the same package.
+    2. can only be accessed through **inheritance** when the two classes are not in the same package.
 
 
-## Q3: An example of accessing superclass's protected method and variable from an outside package
+## Q3: An example of accessing superclass's protected methods and variables from an outside package
 
 ClassA.java:
 
@@ -48,24 +48,25 @@ public class ClassA
 }
 ```
 
-ClassC.java:
+ClassB.java:
 ```java
 package package2;
 
 import package1.ClassA;
 
-public class ClassC extends ClassA
+public class ClassB extends ClassA
 {
     public void showName() {
-        System.out.println("My father's name: " + super.name);
+        System.out.println("My superclass's name: " + super.name);
     }
 
     public static void main(String[] args) {
-        ClassC classC = new ClassC();
-        classC.sayHi();
-        classC.showName();
+        ClassB classB = new ClassB();
+        classB.sayHi();
+        classB.showName();
 
 //        will show an error here, which means we could not access them directly from an outside package
+
 //        ClassA classA = new ClassA();
 //        classA.sayHi();
 //        System.out.println(classA.name);
@@ -76,14 +77,14 @@ public class ClassC extends ClassA
 Result:
 ```
 Hi, I am ClassA!
-My father's name: ClassA
+My superclass's name: ClassA
 ```
 
-> ClassC could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no access modifier.
+> ClassB could not pass compilation when we remove all protected statements in ClassA, which indicates the difference between protected and no access modifier.
 
 ## Q4: Inheritance rules (override superclass's method)
 
 * If a method is set to be **public** in the superclass, its subclass should also set it to be **public**;
 * If a method is set to be **protected** in the superclass, its subclass should set it to be either **public** or **protected**;
-* If a method is not assigned with any access modifier in the superclass, its subclass should set it to be **public** / **protected** / **no access modifier**;
+* If a method is not assigned any access modifier in the superclass, its subclass should set it to be **public** / **protected** / **no access modifier**;
 * If a method is set to be **private** in the superclass, this method could not be inherited by its subclasses.
