@@ -14,7 +14,7 @@
 
 ## final
 
-**final variable**: this variable cannot be assigned a new value again.
+**final variable**: this variable cannot be assigned a new value again (cannot point to another reference, but modifying the current reference is allowed).
 
 **final method**: this method cannot be overridden by its subclasses.
 
