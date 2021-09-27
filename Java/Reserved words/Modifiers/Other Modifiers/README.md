@@ -12,6 +12,10 @@
 * cannot call a non-static method inside a static method
 * cannot access member variables inside a static method
 
+**static block**:
+* would be executed when its class is loaded
+* would be executed only once
+
 ## final
 
 **final variable**: this variable cannot be assigned a new value again (cannot point to another reference, but modifying the current reference is allowed).
