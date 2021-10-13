@@ -18,3 +18,10 @@
 ### reference variable 引用變量
 ### loop 循環
 ### Wrapper Classes 封裝類
+### heap 堆
+### stack 棧
+### immutable class: 不可變類 
+#### (a class whose instances cannot be modified)
+### string constant pool 字符串常量池
+### process 進程
+### thread 線程
