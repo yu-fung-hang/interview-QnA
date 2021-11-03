@@ -14,7 +14,7 @@ An exception is a checked exception if it inherits from `java.lang.Throwable`, b
 Example: `FileNotFoundException`
 
 ### Unchecked Exceptions
-Can be thrown without being caught or declared.
+Can be thrown without being caught or declared. `RuntimeException` belongs to unchecked exception.
 
 Examples: `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `NullPointerException`.
 
