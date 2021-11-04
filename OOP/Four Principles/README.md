@@ -22,12 +22,12 @@ The difference between inheritance and abstraction is that an abstract class cou
 
 A single action could be performed in different ways in different contexts.
 
-**Forms**:
+**static polymorphism**:
 
-1. **override** and **overload**:
-    1. **override**: a subclass could override a superclass's method based on its own requirement. 
-    2. **overload**: a class contains multiple methods with the same name, but their parameters are different (number, type & sequence).
-    
-2. **interface**: an interface could be implemented by many classes by their own way.
+1. Method Overloading: several methods with the same name can be defined in the same class, however, their parameters should be different(number, sequence & type);
+2. Operator Overloading;
+3. Generics: one or more types are not specified by name but by abstract symbols that can represent any type.
 
-3. **abstract class** and **abstract method**: see [Abstraction](#Abstraction) above.
+**dynamic polymorphism**:
+
+Overriding: the implementation in the subclass overrides that in the superclass by providing a method that has same name, same parameters, and same return type as the method in the superclass.
