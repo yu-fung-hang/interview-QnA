@@ -5,3 +5,5 @@
 **API**: Application Programming Interface
 
 **JPA**: Java Persistence API
+
+**DBMS**: Database Management System
