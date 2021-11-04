@@ -25,3 +25,7 @@
 ### string constant pool 字符串常量池
 ### process 進程
 ### thread 線程
+### parentheses ()
+### square brackets []
+### curly brackets {}
+### angle brackets <>
