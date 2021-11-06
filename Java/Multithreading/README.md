@@ -20,13 +20,13 @@ When you execute something **asynchronously**, you can move on to another task b
 
 3. **(not common)** Implement `Callable` interface and implement `call()`;
 
-## Difference between run() and start()
+## run() & start()
 
 **start()**: a new thread is created and code inside run() method is executed in that new thread;
 
 **run()**: no new thread is created and code inside run() method will execute on the current thread and no multi-threading will take place.
 
-## Difference between notify() and notifyAll()
+## notify() & notifyAll()
 
 **notify()**: wakes up a single thread that is waiting on this object's monitor arbitrarily. 
 
@@ -34,7 +34,7 @@ When you execute something **asynchronously**, you can move on to another task b
 
 Both methods should only be called by a thread that is the owner of this object's monitor.
 
-## Difference between sleep() and wait()
+## sleep() & wait()
 
 **sleep()**:
  
@@ -52,7 +52,7 @@ Both methods should only be called by a thread that is the owner of this object'
 
 3. Can only be called from a synchronized block.
 
-## stop() and suspend() are deprecated
+## stop() & suspend()
 
 **stop()**: unlock all the monitors that it has locked, which might cause inconsistency.
 
