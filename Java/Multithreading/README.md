@@ -60,7 +60,13 @@ Both methods should only be called by a thread that is the owner of this object'
 
 ## interrupt()
 
-to be continued
+An interrupt is an indication to a thread that it should stop what it is doing and do something else. It's up to the programmer to decide exactly how a thread responds to an interrupt, but it is very common for the thread to terminate.
+
+**How to handle interruption**:
+
+1. If the thread is frequently invoking methods that throw InterruptedException, it simply returns from the run method after it catches that exception.
+
+2. If a thread goes a long time without invoking a method that throws InterruptedException, then it should periodically invoke Thread.interrupted, and terminate the thread if it returns true.
 
 ## Ways of implementing synchronization
 
