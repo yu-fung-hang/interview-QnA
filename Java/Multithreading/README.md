@@ -72,4 +72,8 @@ An interrupt is an indication to a thread that it should stop what it is doing a
 
 to be continued
 
-## Daemon 
+## daemon threads & user threads
+
+**daemon threads**: low-priority threads whose only role is to provide services to user threads (example: garbage collector thread);
+
+**user threads**: high-priority threads. JVM exits once all user threads have finished their execution.
