@@ -1,5 +1,7 @@
 # Multithreading
 
+the ability of a CPU to provide multiple threads of execution concurrently
+
 ## Thread & Process
 
 **Process**: an executing program
@@ -67,6 +69,10 @@ An interrupt is an indication to a thread that it should stop what it is doing a
 1. If the thread is frequently invoking methods that throw InterruptedException, it simply returns from the run method after it catches that exception.
 
 2. If a thread goes a long time without invoking a method that throws InterruptedException, then it should periodically invoke Thread.interrupted, and terminate the thread if it returns true.
+
+## join()
+
+to be continued
 
 ## Ways of implementing synchronization
 
