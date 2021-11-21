@@ -12,7 +12,7 @@ a Java API for database connectivity
 
 ### ORM
 
-**Object¨Crelational Mapping**
+**Object Relational Mapping**
 
 a concept: connect object code to a relational database
 
