@@ -34,6 +34,6 @@ It is a Java persistence framework.
 
 It is not an implementation of ORM.
 
-## Differences between Hibernate and MyBatis
+## Difference between Hibernate and MyBatis
 
 Hibernate is an ORM framework which maps Java objects to database tables, while MyBatis maps SQL statements to Java methods.
