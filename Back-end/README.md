@@ -1,6 +1,6 @@
 # Back-end Concepts
 
-### JDBC: 
+### JDBC
 
 **Java Database Connectivity**
 
