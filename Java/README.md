@@ -10,7 +10,7 @@ image reference: https://www.upgrad.com/blog/why-is-java-platform-independent-la
 
 ## Q2: Differences between C++ and Java
 
-1. The C++ compiler compiles and converts the source code into machine code. That¡¯s why C++ is faster than Java but not platform-independent ([*reference*](https://www.geeksforgeeks.org/similarities-and-difference-between-java-and-c/));
+1. The C++ compiler compiles and converts the source code into machine code. That's why C++ is faster than Java but not platform-independent ([*reference*](https://www.geeksforgeeks.org/similarities-and-difference-between-java-and-c/));
 
 2. Java is completely object-oriented, while C++ is both object-oriented and procedural. We could define a variable or a method outside of a class in C++, while Java doesn't support this;
 
