@@ -44,7 +44,7 @@ Both methods should only be called by a thread that is the owner of this object'
 
 2. The thread does not lose ownership of any monitors.
 
-3. Sends the current thread into the ¡°Not Runnable¡± state for some amount of time.
+3. Sends the current thread into the **Not Runnable** state for some amount of time.
 
 **wait()**:
 
