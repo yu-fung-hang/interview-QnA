@@ -1,6 +1,6 @@
 # Java Q&A
 
-## Q1: Why Java is platform-independent?
+## Q1: Why is Java platform-independent?
 
 Java compiler transforms source code into bytecode. This bytecode could run in any operating system, and the JVM in each operating system could transform the bytecode into its own machine code which could be executed by the machine.
 
