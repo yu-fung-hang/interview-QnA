@@ -22,12 +22,12 @@ The difference between inheritance and abstraction is that an abstract class cou
 
 A single action could be performed in different ways in different contexts.
 
-**static polymorphism**: java knows which method to call at compile-time
+**static polymorphism**: java knows which method to call at **compile-time**
 
 1. Method Overloading: several methods with the same name can be defined in the same class, however, their parameters should be different(number, sequence & type);
 2. Operator Overloading;
 3. Generics: one or more types are not specified by name but by abstract symbols that can represent any type.
 
-**dynamic polymorphism**: java knows which method to call at runtime
+**dynamic polymorphism**: java knows which method to call at **runtime**
 
 Overriding: the implementation in the subclass overrides that in the superclass by providing a method that has same name, same parameters, and same return type as the method in the superclass.
