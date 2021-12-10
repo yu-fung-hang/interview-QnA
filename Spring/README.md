@@ -18,11 +18,13 @@ a technique in which an object receives other objects that it depends on (**depe
 
 ### Types
 
-**constructor injection**: immutable, to be continued
+There are three types of Dependency Injection, which are **constructor injection**, **field injection**, and **setter injection**.
 
-**field injection**:
+### Why constructor injection is advocated
 
-**setter injection**:
+1. Implement application components as immutable objects;
+2. Ensure that required dependencies are not null;
+3. Constructor-injected components are always returned to client (calling) code in a fully initialized state.
 
 ## Aspect of Programming
 
