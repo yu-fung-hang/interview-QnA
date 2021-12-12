@@ -28,3 +28,11 @@ There are three types of Dependency Injection, which are **constructor injection
 
 ## Aspect of Programming
 
+There are two modes which are **proxy** and **aspectj**.
+
+**proxy mode**:
+1. The @Transactional annotation should only be applied to methods with public visibility;
+2. A method within the target object calls some other method of the target object, won't lead to an actual transaction at runtime even if the invoked method is marked with @Transactional;
+3. @Transactional does not work for static methods since proxies could not be created.
+
+Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch11s05.html
