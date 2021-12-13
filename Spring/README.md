@@ -36,3 +36,11 @@ There are two modes which are **proxy** and **aspectj**.
 3. @Transactional does not work for static methods since proxies could not be created.
 
 Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch11s05.html
+
+## MVC
+
+## Spring Boot
+
+1. Make it easy to create stand-alone, production-grade Spring based Applications that you can "just run";
+2. Embed Tomcat & Jetty directly so there is no need to deploy WAR files;
+3. No requirement for XML configuration.
