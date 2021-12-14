@@ -37,7 +37,27 @@ There are two modes which are **proxy** and **aspectj**.
 
 Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch11s05.html
 
-## MVC
+## Spring Web MVC
+
+**DispatcherServlet**: the front controller of the framework which is responsible for delegating control to various interfaces during the execution of an HTTP request
+
+**HandlerMapping**: select handlers that handle incoming requests
+
+**HandlerAdapter**: execute handler execution chain
+
+**HandlerExecutionChain**: consist of handler object and any handler interceptors
+
+**ViewResolver**: selecting a View based on a logical name (not strictly required)
+
+**View**: responsible for returning a response to the client
+
+### Flow
+
+![](images/mvc.png)
+
+Reference: https://www.upgrad.com/blog/wp-content/uploads/2020/08/RequestLifecycle.png
+
+
 
 ## Spring Boot
 
