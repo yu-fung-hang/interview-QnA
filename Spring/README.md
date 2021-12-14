@@ -51,6 +51,14 @@ Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/
 
 **View**: responsible for returning a response to the client
 
+### Model¨Cview¨Ccontroller
+
+**model**: is responsible for managing the data of the application
+
+**view**: renders presentation of the model in a particular format
+
+**controller**: receives the input, optionally validates it and then passes the input to the model
+
 ### Flow
 
 ![](images/mvc.png)
