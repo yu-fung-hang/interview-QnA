@@ -57,7 +57,7 @@ Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/
 
 Reference: https://www.upgrad.com/blog/wp-content/uploads/2020/08/RequestLifecycle.png
 
-
+When a user clicks a button, the request goes to **DispatcherServlet**. DispatcherServlet then consults one or more **handler mappings** to choose an appropriate **controller**. After that, DispatcherServlet delegates control to **HandlerAdapter** which will execute the **handler execution chain**. A handler execution chain consists of a **controller** as well as **interceptors**. The controller returns a **ModelAndView** back to DispatcherServlet. DispatcherServlet then gives control to **View** so as to return the response back to the client.
 
 ## Spring Boot
 
