@@ -51,7 +51,7 @@ Reference: https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/
 
 **View**: responsible for returning a response to the client
 
-### Model¨Cview¨Ccontroller
+### Model-view-controller
 
 **model**: is responsible for managing the data of the application
 
