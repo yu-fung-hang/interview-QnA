@@ -1,12 +1,16 @@
 # Database
 
+## Transaction
+
+a unit of work performed within a Database Management System against a database, and it must be ACID (atomic, consistent, isolated & durable).
+
 ## ACID
 
 **Atomicity**: either all occurs, or nothing occurs
 
-**Consistency**: a transaction can only bring the database from one valid state to another
+**Consistency**: a transaction can only bring the database from one valid state to another (must conform to existing constraints in the database)
 
-**Isolation**: concurrent and sequential execution of transactions produce the same result
+**Isolation**: concurrent and sequential execution of transactions produce the same result (must not affect other transactions)
 
 **Durability**: transactions that have committed will survive permanently
 
