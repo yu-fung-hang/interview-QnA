@@ -72,7 +72,7 @@ An interrupt is an indication to a thread that it should stop what it is doing a
 
 ## join()
 
-to be continued
+Wait for this thread to die.
 
 ## Ways of implementing synchronization
 
