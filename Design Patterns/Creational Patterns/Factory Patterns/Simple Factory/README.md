@@ -1,7 +1,5 @@
 # Simple Factory
 
-to be continued
-
 ## Class diagram
 
 ![](images/simple-factory.png)
