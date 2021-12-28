@@ -1,4 +1,4 @@
-# Factory method (class-based pattern)
+# Factory method (class scope)
 
 ## Class Diagram
 
