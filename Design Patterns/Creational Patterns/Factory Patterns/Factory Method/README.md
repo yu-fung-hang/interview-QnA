@@ -83,3 +83,10 @@ public class testFactoryMethod
     }
 }
 ```
+
+**Result**:
+``````
+A cup of Espresso is made.
+A cup of Cappuccino is made.
+A cup of Mocha is made.
+``````
