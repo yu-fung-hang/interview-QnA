@@ -1,4 +1,4 @@
-# Singleton
+# Singleton (object scope)
 
 * Ensure that a class only has one instance;
 * The singleton class creates an instance itself, and disallows other classes to create its instance by providing a private constructor;
