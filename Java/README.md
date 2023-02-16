@@ -51,3 +51,7 @@ Reference: https://stackoverflow.com/questions/1906445/what-is-the-difference-be
 ## Q6: ArrayList vs Vector
 
 **ArrayList** is not synchronized, while **Vector** is.
+
+## Q7: equals() vs ==
+
+**==** checks whether both objects point to the same memory location while **equals()** compares the values of the two objects.
