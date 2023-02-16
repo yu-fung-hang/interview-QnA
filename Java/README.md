@@ -37,3 +37,13 @@ A new object B is created, and the field values of A are copied over to B.
 1. An interface only contains abstract methods, while an abstract class could contain non-abstract methods;
 
 2. A class could implement multiple interfaces, while it could inherit from only one abstract class.
+
+## Q5: JVM vs JRE vs JDK
+
+**JVM**: Java Virtual Machine, responsible for transforming bytecode into machine code.
+
+**JRE**: Java Runtime Environment, a package of everything necessary to run a compiled Java program which includes JVM. It cannot be used to create new programs.
+
+**JDK**: Java Development Kit, the full-featured SDK for Java. It has everything the JRE has, but also the compiler and other tools. It is capable of creating and compiling programs.
+
+Reference: https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre
