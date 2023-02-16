@@ -47,3 +47,7 @@ A new object B is created, and the field values of A are copied over to B.
 **JDK**: Java Development Kit, the full-featured SDK for Java. It has everything the JRE has, but also the compiler and other tools. It is capable of creating and compiling programs.
 
 Reference: https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre
+
+## Q6: ArrayList vs Vector
+
+**ArrayList** is not synchronized, while **Vector** is.
