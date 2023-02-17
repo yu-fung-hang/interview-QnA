@@ -63,6 +63,12 @@ Reference: https://stackoverflow.com/questions/1906445/what-is-the-difference-be
 | **NOT synchronized**. It cannot be shared between many threads without proper synchronization code. | **Synchronized**. It is thread-safe and can be shared with many threads. |
 |                          one null key and multiple null values are allowed                          |                     no null key or value are allowed                     |
 
-## Q9: Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain the reason.
+## Q9: Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain the reason
 
 An array generally contains elements of the primitive data types such as int, float, etc. In such cases, the array directly stores these elements at contiguous memory locations. While an ArrayList does not contain primitive data types. An arrayList contains the reference of the objects at different memory locations instead of the object itself. That is why the objects are not stored at contiguous memory locations.
+
+## Q10: local variable vs instance variable
+
+**local variable**: used inside a method, constructor, or a block and has only local scope;
+
+**instance variable**: a variable associated with its object. These variables are declared within a class, but outside a method. Every object of that class will create its own copy of the variables while using it. Thus, any changes made to the variable won’t affect any other instances of that class.
