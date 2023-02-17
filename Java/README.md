@@ -98,5 +98,16 @@ the variable won’t affect any other instances of that class.
 
 Java String pool refers to a collection of Strings which are stored in **heap** memory. Whenever a new object is created, String pool first checks whether the object exists in the pool or not. If exists, then the same reference is returned to the variable else a new object will be created in the String pool and the respective reference will be returned.
 
+## Q13: String vs StringBuilder vs StringBuffer
+
+|     String      |   StringBuffer   | StringBuilder        |
+|:---------------:|:----------------:|----------------------|
+| **thread-safe** | **synchronized** | **NOT** synchronized |
+|    immutable    |     mutable      | mutable              |
+
+## Q14: mutable vs immutable
+
+A **mutable** object can be changed after it was created, while an **immutable** object (like String) cannot.
+
 ## Reference: 
 https://www.edureka.co/blog/interview-questions/java-interview-questions/
