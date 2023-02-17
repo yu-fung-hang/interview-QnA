@@ -58,3 +58,7 @@ Reference: https://stackoverflow.com/questions/1906445/what-is-the-difference-be
 
 ## Q8: HashMap vs HashTable
 
+|                                               HashMap                                               |                                HashTable                                 |
+|:---------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|
+| **NOT synchronized**. It cannot be shared between many threads without proper synchronization code. | **Synchronized**. It is thread-safe and can be shared with many threads. |
+|                          one null key and multiple null values are allowed                          |                     no null key or value are allowed                     |
