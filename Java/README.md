@@ -94,3 +94,9 @@ the variable won’t affect any other instances of that class.
 |                                    do not have any return type                                     |          must have a return type          |
 |            constructor name must always be the same as the class name                              |              no restriction               |
 
+## Q12: What is Java String Pool?
+
+Java String pool refers to a collection of Strings which are stored in **heap** memory. Whenever a new object is created, String pool first checks whether the object exists in the pool or not. If exists, then the same reference is returned to the variable else a new object will be created in the String pool and the respective reference will be returned.
+
+## Reference: 
+https://www.edureka.co/blog/interview-questions/java-interview-questions/
