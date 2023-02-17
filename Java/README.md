@@ -109,5 +109,9 @@ Java String pool refers to a collection of Strings which are stored in **heap** 
 
 A **mutable** object can be changed after it was created, while an **immutable** object (like String) cannot.
 
+## Q15: Why is String an immutable class?
+
+
+
 ## Reference: 
 https://www.edureka.co/blog/interview-questions/java-interview-questions/
