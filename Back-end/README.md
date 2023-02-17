@@ -43,3 +43,7 @@ Hibernate is an ORM framework which maps Java objects to database tables, while 
 **Authentication** confirms that users are who they say they are. 
 
 **Authorization** gives those users permission to access a resource.
+
+## HTTP Methods
+
+to be continued
