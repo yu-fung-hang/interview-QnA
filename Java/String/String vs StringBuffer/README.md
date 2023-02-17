@@ -1,4 +1,4 @@
-# Why is String an immutable class?
+# String vs StringBuffer
 
 An example that illustrates the difference between String and StringBuffer:
 
@@ -35,6 +35,3 @@ public class testString
 String s: original
 StringBuffer sb: modified
 ```
-
-**Reason**
-* String is an immutable class. To be continued
