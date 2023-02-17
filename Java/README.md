@@ -88,11 +88,11 @@ the variable won’t affect any other instances of that class.
 
 ## Q11: constructor vs method
 
-|                                            constructor                                             |                  method                   |
-|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------:|
-|                             used to initialize the state of an object                              | used to represent a behavior of an object |
-|                                    do not have any return type                                     |          must have a return type          |
-|            constructor name must always be the same as the class name                              |              no restriction               |
+|                        constructor                         |                  method                   |
+|:----------------------------------------------------------:|:-----------------------------------------:|
+|         used to initialize the state of an object          | used to represent a behavior of an object |
+|               does not have any return type                |          must have a return type          |
+| constructor name must always be the same as the class name |              no restriction               |
 
 ## Q12: What is Java String Pool?
 
