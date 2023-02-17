@@ -100,10 +100,10 @@ Java String pool refers to a collection of Strings which are stored in **heap** 
 
 ## Q13: String vs StringBuilder vs StringBuffer
 
-|     String      |   StringBuffer   | StringBuilder        |
-|:---------------:|:----------------:|----------------------|
-| **thread-safe** | **synchronized** | **NOT** synchronized |
-|    immutable    |     mutable      | mutable              |
+|     String      |   StringBuffer   |     StringBuilder      |
+|:---------------:|:----------------:|:----------------------:|
+| **thread-safe** | **synchronized** |  **NOT** synchronized  |
+|    immutable    |     mutable      |        mutable         |
 
 ## Q14: mutable vs immutable
 
