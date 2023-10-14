@@ -4,7 +4,7 @@
 
 When I worked as a Research Assistant at UOttawa, I developed the habit of writing clear and detailed documents, which benefits the students who join the lab later.
 
-## Do you have the skills or potential to do the job you¡¯re applying for?
+## Do you have the skills or potential to do the job you're applying for?
 
 Yes. I worked as a back-end developer 
 
