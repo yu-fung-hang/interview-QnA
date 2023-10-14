@@ -1,6 +1,6 @@
 # Observer
 
-An subject maintains a list of observers, and notifies them automatically of any state changes.
+A subject maintains a list of observers, and notifies them automatically of any state changes.
 
 ## Class Diagram
 
