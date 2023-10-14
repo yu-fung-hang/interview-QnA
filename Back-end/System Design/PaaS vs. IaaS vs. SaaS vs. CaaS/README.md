@@ -13,3 +13,5 @@
 * **Function as a service**: If you just need a small dedicated place to work away from your home, you can rent a desk in a coworking workspace. Similarly, FaaS allows you to build and deploy a small piece of code, or a function, that performs a specific task. The cloud provider adds scale if needed when a function executes. Example: Cloud Functions
 
 * **Software as a service**: Now, imagine you move into a finished house (rented or purchased), but you have to pay for upkeep, such as cleaning or lawn care. SaaS is the same—you pay to use a complete application for a specific purpose that is managed, maintained, and secured by the cloud provider, but you are responsible for taking care of your own data. Example: Google Workspace
+
+Reference: https://cloud.google.com/learn/paas-vs-iaas-vs-saas#:~:text=Cloud%20computing%20has%20three%20main,(software%20as%20a%20service).
