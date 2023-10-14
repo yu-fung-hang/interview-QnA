@@ -1,7 +1,13 @@
-# Websites
+# Job Search
 
-1. https://ca.trabajo.org/
+* LinkedIn
 
-2. https://ca.jooble.org/
+* Indeed
 
-3. https://ca.bebee.com/
+* Glassdoor
+
+* https://ca.trabajo.org/
+
+* https://ca.jooble.org/
+
+* https://ca.bebee.com/
