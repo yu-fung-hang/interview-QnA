@@ -14,4 +14,6 @@
 
 * **Software as a service**: Now, imagine you move into a finished house (rented or purchased), but you have to pay for upkeep, such as cleaning or lawn care. SaaS is the same—you pay to use a complete application for a specific purpose that is managed, maintained, and secured by the cloud provider, but you are responsible for taking care of your own data. Example: Google Workspace
 
-Reference: https://cloud.google.com/learn/paas-vs-iaas-vs-saas#:~:text=Cloud%20computing%20has%20three%20main,(software%20as%20a%20service).
+### Reference
+
+https://cloud.google.com/learn/paas-vs-iaas-vs-saas#:~:text=Cloud%20computing%20has%20three%20main,(software%20as%20a%20service).
