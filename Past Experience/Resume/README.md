@@ -2,6 +2,11 @@
 
 ## OTT
 
+### E-Bridge
+1. 
+
+### Pocket
+
 1. Worked with e-commerce team to develop OTT Pocket which sells digital gift cards and vouchers.
 2. Largely protected the platform from money laundering by verifying customer's identity (KYC) with Trulioo.
 3. Enabled credit card payments by incorporating Authorize.Net (a payment gateway that is able to connect to Chase Payment Solutions) into the system.
