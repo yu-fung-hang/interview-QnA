@@ -39,6 +39,8 @@
 
 ### Cyber Black Friday
 
+* Java, Spring Boot, MyBatis, MySQL, Redis, Lua, JavaScript
+
 1. Emulated the scene that thousands of people buy the same product at the same time on Cyber Black Friday, developed two methods (pessimistic locking and Redis) to prevent a mock shopping system from generating excess orders
 2. Sent a large number of XMLHttpRequests in a short time to create an explosion of orders
 3. Proved that the Redis method is much more efficient, costing only 16 seconds to generate 20,000 orders while the other method had to spend several minutes
