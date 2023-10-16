@@ -18,9 +18,15 @@
 2. Largely protected the platform from money laundering by verifying customer's identity (KYC) with Trulioo
 3. Enabled credit card payments by incorporating Authorize.Net (a payment gateway that is able to connect to Chase Payment Solutions) into the system
 4. Developed services to send push notifications into clients' phones using OneSignal
-5. Applied design pattern (factory method) to process cards from different providers (e.g. Esso, InComm, Oxford etc.)
+5. Applied design pattern (factory method) to process cards from different providers (e.g. Esso, InComm, Oxford etc.), including getting new cards, getting balance
 
 ### Yonyou
+
+* Java, Spring Boot, REST API, MyBatis, Oracle, Git, Maven, Tomcat
+
+1. Developed ERP systems for several companies, fixed issues reported by clients
+2. Collaborated with product manager to analyze and design new features
+3. Undertook the DevOps work by deploying the project into Tomcat
 
 ### Research Assistant
 
@@ -28,7 +34,7 @@
 
 1. Built a ridesharing back-end system from scratch, implemented CRUD operations for user management and payment card management  
 2. Enabled authentication and authorization by integrating Spring Security into the system
-3. Implemented the send verification code function with Java Mail Library
+3. Utilized Java Mail Library for sending verification code to users
 4. Applied WebSocket to fetch vehicle's real-time GPS from MongoDB at regular intervals
 
 ### 
