@@ -37,4 +37,8 @@
 3. Utilized Java Mail Library for sending verification code to users
 4. Applied WebSocket to fetch vehicle's real-time GPS from MongoDB at regular intervals
 
-### 
+### Cyber Black Friday
+
+1. Emulated the scene that thousands of people buy the same product at the same time on Cyber Black Friday, developed two methods (pessimistic locking and Redis) to prevent a mock shopping system from generating excess orders
+2. Sent a large number of XMLHttpRequests in a short time to create an explosion of orders
+3. Proved that the Redis method is much more efficient, costing only 16 seconds to generate 20,000 orders while the other method had to spend several minutes
