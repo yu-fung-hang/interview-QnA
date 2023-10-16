@@ -1,7 +1,5 @@
 # Duties
 
-## OTT
-
 ### E-Bridge
 
 * Java, Spring Boot, REST API, Microservices, JPA, Hibernate, MySQL, MongoDB, Git, Docker, Maven
@@ -21,3 +19,10 @@
 3. Enabled credit card payments by incorporating Authorize.Net (a payment gateway that is able to connect to Chase Payment Solutions) into the system
 4. Developed services to send push notifications into clients' phones using OneSignal
 5. Applied design pattern (factory method) to process cards from different providers (e.g. Esso, InComm, Oxford etc.)
+
+### Research Assistant
+
+1. Built a ridesharing back-end system from scratch, implemented CRUD operations for user management and payment card management  
+2. Enabled authentication and authorization by integrating Spring Security into the system.
+3. Implemented the function of sending verification code to user’s email using Java Mail Library.
+4. Applied WebSocket to fetch vehicle's real-time GPS from MongoDB at regular intervals
