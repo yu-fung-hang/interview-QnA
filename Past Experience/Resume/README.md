@@ -26,7 +26,7 @@
 
 1. Developed ERP systems for several companies, fixed issues reported by clients
 2. Collaborated with product manager to analyze and design new features
-3. Undertook the DevOps work by deploying the project into Tomcat
+3. Undertook the DevOps work by deploying projects into Tomcat
 
 ### Research Assistant
 
