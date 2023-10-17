@@ -16,7 +16,7 @@
 
 1. Developed and maintained OTT Pocket, a B2C platform that sells e-gift cards and e-vouchers
 2. Largely protected the platform from money laundering by verifying customer's identity (KYC) with Trulioo
-3. Enabled credit card payments by incorporating Authorize.Net (a payment gateway that is able to connect to Chase Payment Solutions) into the system
+3. Enabled credit card payments by integrating Authorize.Net (a payment gateway that is able to connect to Chase Payment Solutions) into the system
 4. Developed services to send push notifications into clients' phones using OneSignal
 5. Applied design pattern (factory method) to process cards from different providers (e.g. Esso, InComm, Oxford etc.), including getting new cards, getting balance
 
