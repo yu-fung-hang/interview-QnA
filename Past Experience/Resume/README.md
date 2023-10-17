@@ -6,7 +6,7 @@
 
 1. Developed and maintained a SaaS platform for merchants to design and publish their own e-vouchers and e-coupons
 2. Integrated Nacos into the system for service discovery and OpenFeign for HTTP requests between services
-3. Created Amazon Cognito user pool for user registration and authentication, wrote APIs to manage Cognito user attributes
+3. Set up Amazon Cognito user pool for user registration and authentication, wrote APIs to manage Cognito user attributes
 4. Greatly improved system's query performance by caching data into Redis
 5. Undertook the DevOps work by deploying microservices into Amazon EC2 through Docker
 
