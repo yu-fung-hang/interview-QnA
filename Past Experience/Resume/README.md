@@ -1,4 +1,4 @@
-# Duties
+# Resume
 
 ### E-Bridge
 
