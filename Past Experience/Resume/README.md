@@ -24,7 +24,7 @@
 
 * Java, Spring Boot, REST API, MyBatis, Oracle, Git, Maven, Tomcat
 
-1. Developed ERP systems for several companies, fixed issues reported by clients
+1. Developed ERP back-end systems for several companies, fixed issues reported by clients
 2. Collaborated with product manager to analyze and design new features
 3. Undertook the DevOps work by deploying projects into Tomcat
 
